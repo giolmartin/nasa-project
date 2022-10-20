@@ -4,7 +4,7 @@
   "description": "Nasa Mission Control API",
   "main": "src/server.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest ",
     "test-watch": "jest --watch",
     "watch": "nodemon src/server.js",
     "start": "node src/server.js",
@@ -50,6 +50,9 @@
   "keywords": [],
   "author": "Gio Martin",
   "license": "ISC",
+  "jest": {
+    "testEnvironment": "node"
+  },
   "devDependencies": {
     "jest": "^29.1.2",
     "nodemon": "^2.0.20",
