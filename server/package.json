@@ -54,6 +54,9 @@
   "jest": {
     "testEnvironment": "node"
   },
+  "optionalDependencies": {
+    "fsevents": "^2.3.2"
+  }, 
   "devDependencies": {
     "jest": "^26.6.3",
     "nodemon": "^2.0.20",
