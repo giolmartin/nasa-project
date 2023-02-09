@@ -15,7 +15,7 @@ mongoose.connection.on('error', (err) => {
 mongoose.set('strictQuery', false);
 
 async function mongoConnect() {
-  await mongoDisconnect();
+  // await mongoDisconnect();
   console.log(`Im here`);
 
   // console.log("Disconnected");
